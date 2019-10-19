@@ -1,0 +1,8 @@
+
+apiquiz.default_controller_getquiz:
+  path: '/api/quiz'
+  defaults:
+    _controller: '\Drupal\apiquiz\Controller\DefaultController::getQuiz'
+    _title: 'get List questions of Quiz'
+  requirements:
+    _permission: 'access content'

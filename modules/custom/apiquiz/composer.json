@@ -1,0 +1,13 @@
+{
+    "name": "apiquiz",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/apiquiz",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/apiquiz",
+        "source": "http://cgit.drupalcode.org/apiquiz",
+    },
+}

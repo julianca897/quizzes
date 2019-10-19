@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains apiquiz.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function apiquiz_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the apiquiz module.
+    case 'help.page.apiquiz':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
