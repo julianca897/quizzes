@@ -1,0 +1,7 @@
+services:
+  logger.channel.apiquiz:
+    parent: logger.channel_base
+    arguments: ['apiquiz']
+  apiquiz.apicall:
+    class: Drupal\apiquiz\Service\ApiCallService
+    arguments: ["@http_client","@logger.channel.apiquiz"]

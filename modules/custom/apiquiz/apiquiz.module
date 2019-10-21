@@ -22,3 +22,9 @@ function apiquiz_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+function apiquiz_preprocess_node(&$variables) {
+
+    $variables['#attached']['library'][] = 'apiquiz/apiquiz-libraries';
+
+}

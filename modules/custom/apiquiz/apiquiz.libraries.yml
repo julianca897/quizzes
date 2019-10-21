@@ -1,0 +1,3 @@
+apiquiz-libraries:
+  js:
+    src/Js/scriptsQuiz.js: {}
